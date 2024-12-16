@@ -12,7 +12,6 @@ from langchain.chains.question_answering import load_qa_chain
 
 df = pd.read_csv('Cleaned_Sample_OS_Reviews_sub_aspect_extracted.csv')
 
-os.environ['KMP_DUPLICATE_LIB_OK'] = 'TRUE'
 AZURE_OPENAI_API_KEY = os.environ.get("AZURE_OPENAI_API_KEY")
 AZURE_OPENAI_ENDPOINT = os.environ.get("AZURE_OPENAI_ENDPOINT")
 
